@@ -1,13 +1,23 @@
 <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="./main.css" media="screen" title="no title">
+    </style>
   </head>
   <body>
-    <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
-    <script src="./app.js"></script> 
-    <script src="./chart1.json"></script> 
-    <script src="./chart2.json"></script> 
-    <script src="./chart-helpers.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div class="toggleChart">
+      <input type="button" value="Toggle to other chart" />
+    </div>
+
+    <div class="chart1 current" id="columnchart_material" style="width: 800px; height: 500px;"></div>
+    <div class="chart2" id="curve_chart" style="width: 900px; height: 500px"></div>
+
+    <script src="./chart1.js"></script>
+    <script src="./chart2.js"></script>
+    <script src="./app.js"></script>
+    <script src="./chart1-helpers.js"></script>
+    <script src="./chart2-helpers.js"></script>
   </body>
 </html>
-
