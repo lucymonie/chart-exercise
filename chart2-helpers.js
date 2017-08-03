@@ -19,7 +19,8 @@ google.charts.setOnLoadCallback(drawChart);
       },
       width: 900,
       height: 600,
-      vAxis: { title: 'Periods of Care count' }
+      vAxis: { title: 'Periods of Care count' },
+      hAxis: { title: 'Periods of Care duration month to date (1 month bins)' }
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
