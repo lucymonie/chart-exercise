@@ -1,0 +1,16 @@
+.toggleChart {
+  float: right;
+  margin: 30px 30px 0 0;
+}
+
+.chart1 {
+  display:block;
+}
+
+.chart2 {
+  display:none;
+}
+
+.current {
+
+}
